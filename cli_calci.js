@@ -27,7 +27,7 @@ function calculate(a, b, operator) {
 }
 
 rl.question("Enter ther first number : ", (firstNum)=> {
-    rl.question("Enter operator (+, -, *, /): ", (operator) => {
+    rl.question("Enter the operator (+, -, *, /): ", (operator) => {
         rl.question("Enter second number: ", (secondNum)=> {
             const result = calculate(firstNum,secondNum,operator);
             console.log(`Result: ${result}`);
